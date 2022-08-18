@@ -38,4 +38,4 @@ jobs:
         dockerfile_path: ${{ matrix.image_name }}.Dockerfile
         github_personal_access_token: ${{ secrets.GITHUB_TOKEN }}
         github_username: ${{ github.actor }}
-        image_tag: ghcr.io/itopia-inc/spaces-custom-images/${{ matrix.image_name }}:latest
+        image_tag: ghcr.io/nathancarv/spaces-custom-images/${{ matrix.image_name }}:latest
